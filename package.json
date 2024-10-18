@@ -1,0 +1,60 @@
+{
+  "name": "env-mode",
+  "version": "1.0.0",
+  "description": "Easy-to-use interface for working with NODE_ENV",
+  "license": "MIT",
+  "author": {
+    "name": "Rémy Abitbol",
+    "url": "https://github.com/remscodes"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node tests/index.js",
+    "types": "tsc --noEmit",
+    "types:spec": "pnpm run types -p ./tsconfig.spec.json",
+    "types:all": "pnpm run types & pnpm run types:spec",
+    "rm-dist": "node ./scripts/rm-dist.cjs",
+    "prebuild": "pnpm run rm-dist",
+    "pretest": "pnpm run types:all"
+  },
+  "type": "module",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remscodes/env-mode"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "esbuild": "^0.24.0",
+    "rollup": "^4.24.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "node_env"
+  ],
+  "packageManager": "pnpm@9.12.0",
+  "sideEffects": false
+}

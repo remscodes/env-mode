@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "types": [
+      "mocha",
+      "node"
+    ],
+    "allowJs": true
+  },
+  "include": [
+    "tests",
+    "typings"
+  ],
+  "exclude": [
+    "src",
+  ]
+}
