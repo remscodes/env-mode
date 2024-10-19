@@ -6,8 +6,8 @@
 <div align="center">
 
 [![github ci](https://img.shields.io/github/actions/workflow/status/remscodes/env-mode/npm-ci.yml.svg?&logo=github&label=CI&style=for-the-badge)](https://github.com/remscodes/env-mode/actions/workflows/npm-ci.yml)
-[![npm version](https://img.shields.io/npm/v/env-mode.svg?&style=for-the-badge&logo=npm)](https://www.npmjs.org/package/env-mode)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/env-mode.svg?style=for-the-badge)](https://bundlephobia.com/package/env-mode)
+[![npm version](https://img.shields.io/npm/v/@remscodes/env-mode.svg?&style=for-the-badge&logo=npm)](https://www.npmjs.org/package/@remscodes/env-mode)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@remscodes/env-mode.svg?style=for-the-badge)](https://bundlephobia.com/package/@remscodes/env-mode)
 [![license](https://img.shields.io/github/license/remscodes/env-mode.svg?style=for-the-badge)](LICENSE)
 
 </div>
