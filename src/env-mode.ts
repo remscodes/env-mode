@@ -3,7 +3,7 @@ import './_models/global.d.ts';
 import { Options } from './_models/options.model';
 import { DEFAULT_KEY } from './env-mode.constants';
 
-type Mode = EnvMode.Mode
+type Mode = NSEnvMode.Mode
 
 export default class EnvMode {
 

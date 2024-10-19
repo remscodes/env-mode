@@ -1,6 +1,6 @@
 declare global {
 
-  namespace EnvMode {
+  namespace NSEnvMode {
 
     interface ModeMap {}
 
