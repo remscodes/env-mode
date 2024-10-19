@@ -23,7 +23,7 @@ export default class EnvMode {
   }
 
   public static notIn(modes: Mode[]): boolean {
-    return modes.includes(this.get());
+    return !this.in(modes);
   }
 
   public static is(mode: Mode): boolean {
@@ -31,7 +31,7 @@ export default class EnvMode {
   }
 
   public static isNot(mode: Mode): boolean {
-    return (mode !== this.get());
+    return !this.is(mode);
   }
 
   public static select<T>(selector: ModeSelector<T>): T {
