@@ -1,7 +1,7 @@
 import EnvMode from '../src/env-mode';
 
 declare global {
-  namespace EnvMode {
+  namespace NSEnvMode {
     interface ModeMap {
       dev: string;
       prod: string;
