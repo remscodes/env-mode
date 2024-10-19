@@ -1,7 +1,7 @@
 {
   "name": "env-mode",
   "version": "1.0.0",
-  "description": "Easy-to-use interface for working with NODE_ENV",
+  "description": "Easy-to-use interface for working with env mode (as NODE_ENV)",
   "license": "MIT",
   "author": {
     "name": "Rémy Abitbol",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "test": "node tests/index.js",
+    "test": "node tests/index.ts",
     "types": "tsc --noEmit",
     "types:spec": "pnpm run types -p ./tsconfig.spec.json",
     "types:all": "pnpm run types & pnpm run types:spec",
