@@ -1,6 +1,6 @@
 {
   "name": "@remscodes/env-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny, handy and strongly typed library for working with the env mode (NODE_ENV)",
   "license": "MIT",
   "author": {
