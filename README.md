@@ -50,6 +50,12 @@ const color = EnvMode.select({
 console.log(color); // 'blue'
 ```
 
+## Configuration
+
+```ts
+EnvMode.configure({ key: 'MY_ENV_KEY' });
+```
+
 ## License
 
 [MIT](LICENSE) © Rémy Abitbol.
