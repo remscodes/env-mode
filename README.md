@@ -15,7 +15,7 @@
 ## Installation
 
 ```shell
-npm install env-mode
+npm install @remscodes/env-mode
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ declare global {
 ```
 
 ```ts
-import EnvMode from 'env-mode';
+import EnvMode from '@remscodes/env-mode';
 
 EnvMode.get(); // dev
 
