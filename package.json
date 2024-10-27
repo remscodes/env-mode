@@ -53,6 +53,7 @@
   "keywords": [
     "env",
     "environment",
+    "mode",
     "process",
     "node_env",
     "is",
