@@ -42,9 +42,9 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@types/node": "^22.7.6",
+    "@types/node": "^22.8.1",
     "esbuild": "^0.24.0",
-    "rollup": "^4.24.0",
+    "rollup": "^4.24.1",
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
@@ -59,6 +59,6 @@
     "in",
     "select"
   ],
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@9.12.2",
   "sideEffects": false
 }
