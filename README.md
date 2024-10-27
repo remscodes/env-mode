@@ -146,7 +146,7 @@ DENO_ENV=dev
 
 ```ts
 EnvMode.configure({ key: 'DENO_ENV' });
-EnvMode.get() // "dev"
+EnvMode.get(); // "dev"
 ```
 
 ### Source
