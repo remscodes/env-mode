@@ -24,9 +24,9 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "stripInternal": true,
-    "verbatimModuleSyntax": false,
+    "verbatimModuleSyntax": false
   },
   "include": [
-    "src",
+    "src"
   ]
 }
