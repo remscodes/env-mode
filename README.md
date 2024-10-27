@@ -22,7 +22,7 @@ npm install @remscodes/env-mode
 
 This library does not load environment variables from a `.env` files.
 
-It is supposed to be used in addition to a module or any framework that load these variables.
+It is supposed to be used in addition to any module or framework that load these variables.
 
 ## Usage
 
@@ -91,7 +91,7 @@ export {};
 
 Include it into your `tsconfig.json`.
 
-```json
+```
 // tsconfig.json
 {
   // ...
